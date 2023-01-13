@@ -32,25 +32,25 @@ Python Files
 """
 
 
-numbers = []
-with open("./files/test_readwrite.csv", mode="r") as f:
-    lines = f.readlines()
-    for line in lines:
-        numbers.append(line.split(","))
+# numbers = []
+# with open("./files/test_readwrite.csv", mode="r") as f:
+#     lines = f.readlines()
+#     for line in lines:
+#         numbers.append(line.split(","))
 
 
-new_numbers = []
-for num in numbers:
-    l_num = [int(n)**2 for n in num]
-    new_numbers.append(l_num)
+# new_numbers = []
+# for num in numbers:
+#     l_num = [int(n)**2 for n in num]
+#     new_numbers.append(l_num)
 
 
-with open("./files/test_readwrite.csv", mode="w") as f:
-    for num in new_numbers:
-        i = 0
-        for n in num:
-            if i:
-                f.write(",")
-            f.write(str(n))
-            i = 1
-        f.write("\n")
+# with open("./files/test_readwrite.csv", mode="w") as f:
+#     for num in new_numbers:
+#         i = 0
+#         for n in num:
+#             if i:
+#                 f.write(",")
+#             f.write(str(n))
+#             i = 1
+#         f.write("\n")

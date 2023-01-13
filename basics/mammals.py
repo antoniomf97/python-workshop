@@ -19,19 +19,19 @@ class Mammal:
 class Dog(Mammal):
     def __init__(self, name) -> None:
         super().__init__("carnivora", "canidae", "canis", "c. familiaris")
-        self.name = name
+        self.dogname = name
 
     def sound(self):
-        print("woof")
+        print(self.dogname + ": woof")
 
 
 class Cat(Mammal):
     def __init__(self, name) -> None:
         super().__init__("carnivora", "felidae", "felis", "f. catus")
-        self.name = name
+        self.catname = name
 
     def sound(self):
-        print("miau")
+        print(self.catname + ": miau")
 
 
 print()
@@ -43,3 +43,13 @@ print()
 cat = Cat(name="Garfield")
 print(cat)
 cat.sound()
+
+
+def get_animal_species(animal: Mammal):
+    print(animal.species)
+
+
+print()
+get_animal_species(dog)
+get_animal_species(cat)
+print()
