@@ -8,7 +8,7 @@ In order to setup everything to start this course, please follow the steps below
 
 1. If you don't have Python installed in your machine, first download it from the official Python page ([download link](https://www.python.org/downloads/)).
 
-    **Note:** If you are using MacOS or Linux, it is very likely you'll have it already installed. Nevertheless, you can check it by running the following command:
+    **Note:** If you are using MacOS or Linux, it is very likely you'll have it already installed. Nevertheless, you can check it by running the following command on any command prompt:
     
     ```
     python -V
