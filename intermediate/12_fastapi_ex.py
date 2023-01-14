@@ -6,6 +6,7 @@ https://www.uvicorn.org/
 https://docs.pydantic.dev/
 """
 
+
 import uvicorn
 
 from fastapi import FastAPI, HTTPException
@@ -15,7 +16,7 @@ from pydantic import BaseModel
 
 
 class Argument2(BaseModel):
-    argument_3: int
+    argument_3: str
 
 
 class FastApiRequest(BaseModel):
@@ -47,5 +48,5 @@ def app():
 if __name__ == "__main__":
     host, port = config("ENDPOINT", cast=Csv())
     uvicorn.run(
-        "fastapi_example:app", host=host, port=int(port), log_level="debug", reload=True
+        "12_fastapi_ex:app", host=host, port=int(port), log_level="debug", reload=True
     )
