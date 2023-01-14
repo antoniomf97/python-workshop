@@ -100,7 +100,7 @@ def animate(i):
     history_y.appendleft(thisy[2])
 
     line.set_data(thisx, thisy)
-    trace.set_data(history_x, history_y)
+    # trace.set_data(history_x, history_y)
     time_text.set_text(time_template % (i*dt))
     return line, trace, time_text
 
