@@ -6,8 +6,8 @@ This Python workshop aims to provide a solid introduction to programming in Pyth
 1. [Complementary Information](#complementary-information)
 
     1. [Logic and Circuits](#logic-circuits)
-    2.
-    3.
+    2. [Data Visualization](#data-visualization)
+    3. [Compilers and Interpreteurs](#compilers)
 
 2. [Setup your python workspace](#setup-python-workspace)
 
