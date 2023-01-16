@@ -77,6 +77,7 @@ Please note that there is plenty more information about this topic all over the 
 <a id="setup-python-workspace"></a>
 ## Setup your python workspace
 
+
 In order to setup everything to start this course, please follow the steps below:
 
 1. If you don't have Python installed in your machine, first download it from the official Python page ([download link](https://www.python.org/downloads/)).
@@ -95,7 +96,9 @@ In order to setup everything to start this course, please follow the steps below
 
     Visual Studio Code features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. Moreover, users can change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionalities.
 
+
     Some useful extensions to use python in VS Code are:
+
 
     - *Python* ([ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
     
