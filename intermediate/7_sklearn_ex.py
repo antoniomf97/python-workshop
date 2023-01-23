@@ -51,7 +51,9 @@ def clusters():
     ax[0].scatter(km.cluster_centers_[:, 0], km.cluster_centers_[:, 1], s=20, c="r")
     ax[0].set_title("KMeans")
     ax[1].scatter(X[:, 0], X[:, 1], s=10, c=bisect_km.labels_)
-    ax[1].scatter(bisect_km.cluster_centers_[:, 0], bisect_km.cluster_centers_[:, 1], s=20, c="r")
+    ax[1].scatter(
+        bisect_km.cluster_centers_[:, 0], bisect_km.cluster_centers_[:, 1], s=20, c="r"
+    )
     ax[1].set_title("BisectingKMeans")
     plt.show()
 

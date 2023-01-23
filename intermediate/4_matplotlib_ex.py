@@ -12,9 +12,9 @@ import numpy as np
 # def simple_plot():
 #     x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #     y = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-    
+
 #     fig = plt.figure(figsize=(10, 5))
-    
+
 #     plt.plot(x, y, color="blue")
 #     plt.scatter(x, y, color="red")
 #     plt.show()
@@ -47,7 +47,7 @@ import numpy as np
 #     signal2 = np.random.randn(len(t)) * 10
 
 #     fig, axs = plt.subplots(nrows=2, ncols=1, figsize=(10, 6))
-    
+
 #     axs[0].plot(t, signal1, t, signal2)
 #     axs[0].set_xlim(0, 10)
 #     axs[0].set_ylabel('Signals')
@@ -98,4 +98,3 @@ import numpy as np
 #     plt.show()
 
 # lorentz_plot3D()
-

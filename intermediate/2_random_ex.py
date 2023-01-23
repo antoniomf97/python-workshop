@@ -37,7 +37,7 @@ https://docs.python.org/3/library/random.html
 # for _ in range(n):
 #     s['normal'] += random.normalvariate(3, 0.1)
 #     s['uniform'] += random.uniform(-3, 3)
-    
+
 # s['normal'] /= n
 # s['uniform'] /= n
 
