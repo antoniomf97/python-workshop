@@ -36,6 +36,6 @@ https://realpython.com/openpyxl-excel-spreadsheets-python/
 # values = [1, 2, 3, 4, 5, 6, 7, 8]
 # for i, c in enumerate(current["C1":"C8"]):
 #     c[0].value = values[i]
-    
+
 
 # workbook.save(filename="./files/test_excel.xlsx")

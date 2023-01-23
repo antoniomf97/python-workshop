@@ -9,13 +9,13 @@ from julia import Main
 from time import time
 
 t1 = time()
-Main.eval('[x^2 for x in 0:1000000]')
+Main.eval("[x^2 for x in 0:1000000]")
 t2 = time()
 
-print(t2-t1)
+print(t2 - t1)
 
 t1 = time()
 c = [x**2 for x in range(1000000)]
 t2 = time()
 
-print(t2-t1)
+print(t2 - t1)
